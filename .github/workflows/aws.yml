@@ -51,7 +51,7 @@ jobs:
         # Your Heroku API Key
         api_key: ${{ secrets.HEROKU_API_KEY }}
         # Your Heroku App Name
-        app_name: andoni-test2
+        app_name: test-andoni2
         # Dokerfile path
         #dockerfile_path: 
         # Optional build parameters
