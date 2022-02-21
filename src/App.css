@@ -1,25 +1,16 @@
-html {scroll-snap-type: y mandatory}
+html {
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
 
 main {
     text-align: center;
 }
 
 article {
-    height: 100vh;
-    word-break-inside: 100vw;
     scroll-snap-align: start;
 }
-
-article#a1 {
-    background: #99decf;
-}
-
-article#a2 {
-    background: #e5c6e2;
-}
-
-article#a3 {
-    background: #f1e6b7;
-}
-
 

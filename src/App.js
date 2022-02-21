@@ -1,16 +1,16 @@
+import './css/fonts.css';
 import './App.css';
+import Header from "./header/Header";
+import Introduction from "./introduction/Introduction";
 
 function App() {
 	return (
 		<main>
-          <article id={"a1"}>
-            11
+          <article>
+            <Header />
           </article>
-          <article id={"a2"}>
-            22
-          </article>
-          <article id={"a3"}>
-            33
+          <article style={{display: "none"}}>
+            <Introduction />
           </article>
 		</main>
 	);
