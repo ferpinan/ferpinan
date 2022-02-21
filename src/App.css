@@ -1,0 +1,16 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+article {
+    scroll-snap-align: start;
+}
+
