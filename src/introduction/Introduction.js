@@ -7,7 +7,7 @@ const Introduction = () => (
 		<p>I am a software developer with robust problem-solving skills and proven experience in creating and designing software in a test-driven environment. I have been worked for 2 years on various programming languages and various frameworks.</p>
 		<div className={"icons"}>
 			{
-				Icons.map(icon => <img src={icon}/>)
+				Icons.map(icon => <img src={icon} alt={"tech-icon"}/>)
 			}
 
 		</div>
